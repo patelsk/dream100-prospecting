@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream 100 Prospecting — Website Redesigns</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f7f4; color: #1a1a1a; min-height: 100vh; }
+    header { background: #0f4c3a; color: white; padding: 2rem; }
+    header h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
+    header p { color: #a7c4b5; margin-top: 0.4rem; font-size: 0.9rem; }
+    main { max-width: 900px; margin: 3rem auto; padding: 0 1.5rem; }
+    h2 { font-size: 1rem; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.5rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; }
+    .card { background: white; border-radius: 12px; border: 1px solid #e5e5e5; overflow: hidden; transition: box-shadow 0.2s; text-decoration: none; color: inherit; display: block; }
+    .card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+    .card-body { padding: 1.25rem; }
+    .card-tag { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: #0f4c3a; background: #e8f4ef; padding: 0.25rem 0.6rem; border-radius: 999px; display: inline-block; margin-bottom: 0.75rem; }
+    .card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .card p { font-size: 0.85rem; color: #666; line-height: 1.5; }
+    .card-footer { padding: 0.9rem 1.25rem; border-top: 1px solid #f0f0f0; font-size: 0.8rem; color: #999; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dream 100 Prospecting</h1>
+    <p>Free website redesigns — one subfolder per prospect</p>
+  </header>
+  <main>
+    <h2>Prospects</h2>
+    <div class="grid">
+      <a href="./zimmer-dds/" class="card">
+        <div class="card-body">
+          <span class="card-tag">Dentistry</span>
+          <h3>Shawn L. Zimmer, DDS</h3>
+          <p>Family dentistry practice in Mount Pleasant, MI. 30+ year practice, full 5-page redesign.</p>
+        </div>
+        <div class="card-footer">Mount Pleasant, Michigan &rarr;</div>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
