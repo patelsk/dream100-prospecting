@@ -8,7 +8,21 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Shawn L. Zimmer, DDS | Family Dentistry in Mount Pleasant, MI</title>
     <meta name="description" content="Dr. Shawn Zimmer has provided trusted family dental care in Mount Pleasant, Michigan for over 30 years. Services include crowns, bridges, implants, cleanings, and more. Call (989) 772-4842." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <script>
+    // GitHub Pages SPA redirect handler
+    (function(l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function(s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, l.pathname.indexOf('/zimmer-dds/') + '/zimmer-dds/'.length) +
+          decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
     <script type="module" crossorigin src="/dream100-prospecting/zimmer-dds/assets/index-CS_napiR.js"></script>
